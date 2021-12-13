@@ -1,0 +1,17 @@
+# fakeemailer
+Language/framework: For simplicity, this is a vanilla JS node app with no frameworks.
+Libraries: The only modules required are sendgrid and html-to-text.
+Tradeoffs: I did not have enough time to include mailgun or unit tests.
+Time spent: This took almost the full 4 hours to code and push to github.
+Other: 
+ - Custom Errors allows for default error strings without hardcodeing accross the app.
+ - The index.js files are meant to make importing (many) additional api routes and utils easier.
+
+## To install:
+Make sure `node --version` is >= 12.16.1
+`export SENDGRID_API_KEY='Sendgrid API Key'`
+`export MAILGUN_API_KEY='Mailgun API Key'`
+`npm i`
+
+## To run:
+`node app.js`

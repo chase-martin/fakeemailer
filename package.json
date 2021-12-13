@@ -1,0 +1,23 @@
+{
+  "name": "fakeemailer",
+  "version": "1.0.0",
+  "description": "Fake emailer",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/chase-martin/fakeemailer.git"
+  },
+  "author": "Chase Martin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chase-martin/fakeemailer/issues"
+  },
+  "homepage": "https://github.com/chase-martin/fakeemailer#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.6.0",
+    "html-to-text": "^8.1.0"
+  }
+}
